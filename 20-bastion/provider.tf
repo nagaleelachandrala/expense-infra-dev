@@ -7,10 +7,10 @@ terraform {
   }
   backend "s3" {
       
-    bucket = "26m-remote-state"
+    bucket = "26m-remote-state-dev"
     key    = "expense-dev-bastion" # you should have unique keys with in the bucket,same key should not be used other reposr tf projects
     region = "us-east-1"
-    dynamodb_table = "26m-state-locking"
+    dynamodb_table = "26m-remote-state-dev"
   }
 }
 

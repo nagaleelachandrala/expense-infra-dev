@@ -8,7 +8,7 @@ terraform {
   backend "s3" {
       
     bucket = "26m-remote-state-dev"
-    key    = "sg-test" # you should have unique keys with in the bucket,same key should not be used other reposr tf projects
+    key    = "expense-dev-backend" # you should have unique keys with in the bucket,same key should not be used other reposr tf projects
     region = "us-east-1"
     dynamodb_table = "26m-remote-state-dev"
   }
