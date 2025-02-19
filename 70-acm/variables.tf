@@ -16,5 +16,9 @@ variable "common_tags" {
 }
 
 variable "domain_name" {
-    default = "eashan.online"
+  default = "eashan.online"
+}
+
+variable "zone_id" {
+  default = "Z05168221QPQSO2DJZR5S"
 }

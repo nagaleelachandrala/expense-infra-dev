@@ -12,9 +12,14 @@ variable "common_tags" {
     Project = "expense"
     Environment = "dev"
     Terraform = "true"
+  
   }
 }
 
+variable "zone_id" {
+ default = "Z05168221QPQSO2DJZR5S"
+}
+
 variable "domain_name" {
-    default = "eashan.online"
+  default = "eashan.online"
 }

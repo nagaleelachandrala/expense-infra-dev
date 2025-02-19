@@ -5,4 +5,4 @@ dnf install ansible -y
 # ansible -playbook  -i inventory mysql.yaml
 
 #pull
-ansible-pull -i localhost, -u https://github.com/nagaleelachandrala/exxpense-ansible-roles.git backend.yaml -e COMPONENT=backend -e ENVIRONMENT=$1
+ansible-pull -i localhost, -u https://github.com/nagaleelachandrala/exxpense-ansible-roles.git main.yaml -e COMPONENT=backend -e ENVIRONMENT=$1
